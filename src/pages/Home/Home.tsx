@@ -30,7 +30,7 @@ export function Home() {
 
       <CreateTask.Form onSubmit={onSubmit}>
         <CreateTask.Input
-          placeholder="New Task"
+          placeholder="Enter a New Task"
           maxLength={50}
           value={title}
           onChange={(e) => setTitle(e.target.value)}
